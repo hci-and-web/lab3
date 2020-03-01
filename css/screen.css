@@ -198,55 +198,79 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+body {
+  background-color: #dbdbdb;
+}
+
 label {
   display: block;
 }
 
 /* ===== LAYOUT STYLES ====== */
 
-#title {
+#title-section {
   display: block;
   box-sizing: border-box;
   width: 100%;
-  padding: 1.375em; /* 22px */
-  background-color: #292929;
+  padding: 0.6em; /* 13.197px */
+  background-color: #202020;
 }
 
-#title h1 {
-}
-
-#description {
+#description-section {
   display: block;
   box-sizing: border-box;
   width: 100%;
-  padding: 1.375em; /* 22px */
-  background-color: #3a3a3a;
+  padding: 1em; /* 22px */
+  background-color: #303030;
 }
 
-#form-inputs {
+#form-input-section {
   display: block;
   box-sizing: border-box;
-  width: 100%;
-  padding: 1.375em; /* 22px */
-  background-color: #6b6b6b;
+  margin: auto;
+  margin-top: 2.779em; /* 61.136px */
+  width: 90%;
+  padding: 1.667em; /* 36.674px */
+  background-color: #303030;
 }
+
+input {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  background-color: #000000;
+  border-style: none;
+  padding: 1em; /* 22px */
+}
+
+label {
+  margin-top: 1.667em; /* 36.674px */
+}
+
 
 /* ===== MODULAR STYLES ===== */
 
-#title {
+#title-section {
+  font-size: 7.722em; /* 169.889px */
+  color:#dbdbdb;
+  text-align: left;
+}
+
+#description-section {
   font-size: 2.779em; /* 61.136px */
-  color:#f2f2f2;
+  color: #dbdbdb;
   text-align: center;
 }
 
-#description {
-  font-size: 1.667em; /* 36.674px */
-  color: #f2f2f2;
-  text-align: center;
+#form-input-section {
+  color: #dbdbdb;
 }
 
-#form-inputs {
-  color: #292929;
+label {
+  color: #dbdbdb;
+  text-align: center;
+  font-size: 4.632em; /* 169.889px */
 }
 
 /* ===== STATE STYLES ======= */
