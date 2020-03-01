@@ -236,12 +236,13 @@ label {
 #title {
   font-size: 2.779em; /* 61.136px */
   color:#f2f2f2;
+  text-align: center;
 }
 
 #description {
   font-size: 1.667em; /* 36.674px */
-  text-align: center;
   color: #f2f2f2;
+  text-align: center;
 }
 
 #form-inputs {
