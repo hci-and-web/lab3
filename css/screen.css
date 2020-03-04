@@ -263,9 +263,11 @@ input {
 }
 
 #input-age-verification {
+  width:70%;
   background-color: aquamarine;
   display: block;
   box-sizing: border-box;
+  float:left;
 }
 
 #age-label {
@@ -274,6 +276,7 @@ input {
 
 #age-verification {
   height: 1.375em; /* 22px */;
+  width: 1.375em; /* 22px */;
   float:left;
 }
 
