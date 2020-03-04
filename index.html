@@ -8,27 +8,30 @@
   <link rel="stylesheet" media="screen" href="css/_normalize-form.css" />
   <link rel="stylesheet" media="screen" href="css/_reset.css" />
   <link rel="stylesheet" media="screen" href="css/_reset.min.css" />
-
 </head>
 <body>
 <main id="content">
-  <form method="get" action="#null">
-    <section id="title-section">
-      <h1>Secret Diabetes Newsletter</h1>
-    </section>
-    <section id="description-section">
-      <p>Sign up and learn 5 secrets </p>
-      <p>to fight Diabetes!</p>
-    </section>
+
+  <section id="title-section">
+    <h1>Secret Diabetes Newsletter</h1>
+  </section>
+
+  <section id="description-section">
+    <p>Sign up and learn 5 secrets </p>
+    <p>to fight Diabetes!</p>
+  </section>
+
+  <form method="get" action="#null"></form>
+
     <section id="form-input-section">
     <ol>
       <li id="input-email">
-        <label for="email">Email</label>
+        <label class="form-label" id="email-label" for="email">Email</label>
         <input type="email" name="email" id="email" pattern="^.+@.+$" autofocus/>
       </li>
       <li id="input-age-verification">
         <input type="checkbox" id="age-verification" name="age-verification" value="18" />
-        <label for="age-verification">I am over 18 years old</label>
+        <label class="form-label" id="age-label" for="age-verification">I am over 18 years old</label>
       </li>
       <li id="input-submit">
         <input type="submit" name="submit" id="submit" value="Subscribe" />
@@ -36,6 +39,7 @@
     </section>
     </ol>
   </form>
+
 </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/site.js"></script>

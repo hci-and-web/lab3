@@ -199,7 +199,7 @@ html {
 }
 
 body {
-  background-color: #dbdbdb;
+  background-color: #141414;
 }
 
 label {
@@ -212,26 +212,36 @@ label {
   display: block;
   box-sizing: border-box;
   width: 100%;
-  padding: 0.6em; /* 13.197px */
+  padding: 1.375em; /* 22px */
   background-color: #202020;
+
+  font-size: 2.292em; /* 36.674px */
+  color:#dbdbdb;
+  text-align: left;
 }
 
 #description-section {
   display: block;
   box-sizing: border-box;
   width: 100%;
-  padding: 1em; /* 22px */
+  padding: 1.375em; /* 22px */
   background-color: #303030;
+
+  font-size: 2.292em; /* 36.674px */
+  color: #dbdbdb;
+  text-align: center;
 }
 
 #form-input-section {
   display: block;
   box-sizing: border-box;
   margin: auto;
-  margin-top: 2.779em; /* 61.136px */
+  margin-top: 2.292em; /* 36.674px */
   width: 90%;
-  padding: 1.667em; /* 36.674px */
+  padding: 1.375em; /* 22px */
   background-color: #303030;
+
+  color: #dbdbdb;
 }
 
 input {
@@ -239,40 +249,42 @@ input {
   display: block;
   box-sizing: border-box;
   margin: auto;
-  background-color: #000000;
-  border-style: none;
-  padding: 1em; /* 22px */
-}
+  background-color: #202020;
+  border: none;
+  padding: 1.375em; /* 22px */
 
-label {
-  margin-top: 1.667em; /* 36.674px */
-}
-
-
-/* ===== MODULAR STYLES ===== */
-
-#title-section {
-  font-size: 7.722em; /* 169.889px */
   color:#dbdbdb;
-  text-align: left;
 }
 
-#description-section {
-  font-size: 2.779em; /* 61.136px */
-  color: #dbdbdb;
-  text-align: center;
+.form-label {
+  width: 10.618em; /* 169.889px */
+  font-size: 1.375em; /* 22px */
+  background-color: coral;
 }
 
-#form-input-section {
-  color: #dbdbdb;
+#input-age-verification {
+  background-color: aquamarine;
+  display: block;
+  box-sizing: border-box;
 }
 
-label {
-  color: #dbdbdb;
-  text-align: center;
-  font-size: 4.632em; /* 169.889px */
+#age-label {
+  float: right;
+}
+
+#age-verification {
+  height: 1.375em; /* 22px */;
+  float:left;
 }
 
 /* ===== STATE STYLES ======= */
 
+@media only screen and (min-width: 768px) {
+  
+  
+}
 
+@media only screen and (min-width: 1025px) {
+  
+  
+}
