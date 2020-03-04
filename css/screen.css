@@ -217,6 +217,7 @@ label {
   font-size: 2.292em; /* 36.674px */
   color:#111111;
   text-align: left;
+  font-family: 'Shrikhand', cursive;
 }
 
 #description-section {
@@ -228,6 +229,7 @@ label {
   font-size: 1.375em; /* 22px */
   color: #2b2b2b;
   text-align: center;
+  font-family: 'Spartan', sans-serif;
 }
 
 #form-input-section {
@@ -261,16 +263,18 @@ input {
   width:70%;
   margin:auto;
   font-size: 1.375em; /* 22px */
+  font-weight: 600;
   padding:0.825em /* 13.197px */
 }
 
 .form-label {
   font-size: 1.375em; /* 22px */
+  font-family: 'Nunito', sans-serif;
   margin-bottom: 0.495em /* 13.197px */
 }
 
 #input-age-verification {
-  width: 14em;
+  width: 17.7em; /* 283.205px */
   display: block;
   box-sizing: border-box;
   float: left;
@@ -285,4 +289,13 @@ input {
   height: 1.375em; /* 22px */;
   width: 1.375em; /* 22px */;
   float: left;
+  border:none;
+  box-shadow: none;
+  background-color: #0c0c0c;
 }
+
+/*
+font-family: 'Spartan', sans-serif;
+font-family: 'Shrikhand', cursive;
+font-family: 'Nunito', sans-serif;
+*/
