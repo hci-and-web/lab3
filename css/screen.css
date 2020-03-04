@@ -257,17 +257,14 @@ input {
 }
 
 .form-label {
-  width: 10.618em; /* 169.889px */
   font-size: 1.375em; /* 22px */
-  background-color: coral;
 }
 
 #input-age-verification {
-  width:70%;
-  background-color: aquamarine;
+  width: 14em;
   display: block;
   box-sizing: border-box;
-  float:left;
+  float: left;
 }
 
 #age-label {
@@ -277,7 +274,7 @@ input {
 #age-verification {
   height: 1.375em; /* 22px */;
   width: 1.375em; /* 22px */;
-  float:left;
+  float: left;
 }
 
 /* ===== STATE STYLES ======= */
